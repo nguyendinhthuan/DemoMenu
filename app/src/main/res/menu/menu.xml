@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_Nhap"
+        android:title="Nhap thong tin"/>
+
+    <item android:id="@+id/item_Xem"
+        android:title="Xem thong tin"/>
+</menu>

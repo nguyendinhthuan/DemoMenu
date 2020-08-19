@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityXuat">
+
+    <Button
+            android:id="@+id/button_Xuat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xuat"
+            android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
